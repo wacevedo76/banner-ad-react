@@ -1,5 +1,5 @@
 import React from 'react';
-import AdCard from './ad_card.jsx';
+import AdCard from './ad_top_card.jsx';
 
 const AdTop = () => {
   return (

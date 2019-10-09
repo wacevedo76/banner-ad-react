@@ -11,7 +11,7 @@
 .top-image {
   display: flex;
   flex-grow: 4;
-  width: 50%;
+  max-width: 60%;
 }
 
 .top-image > img {
@@ -24,7 +24,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 1em 0 1em 1em;
+  margin: .5em auto;
+  padding: .5em 0 1em 1em;
   width: 30%;
 }
 
@@ -50,28 +51,24 @@
   width: 100%;
 }
 
+
 .card-description > p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
   width: 90%;
 }
-.card-description > p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1vw;
-  width: 80  %;
-}
 
 .submit-button {
-  background-color: rgb(0, 0, 128);
+  background-color: rgb(27, 23, 40);
   transition-duration: .5s;
   color: white;
-  font-size: .8vw;
+  font-size: 1.5vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  max-width: 30%;
+  padding: .5rem 3rem;
+  border-radius: 2px;
+  max-width: 40%;
   box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }
 .submit-button:hover {
