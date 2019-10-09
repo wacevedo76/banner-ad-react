@@ -36,7 +36,7 @@
 .ad-title {
   font-family: 'Limelight', cursive;
   text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-  font-size: 3.5vw;
+  font-size: 4vw;
   color: black;
   margin: .1em auto;
 }
@@ -50,6 +50,11 @@
   width: 100%;
 }
 
+.card-description > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  width: 90%;
+}
 .card-description > p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
