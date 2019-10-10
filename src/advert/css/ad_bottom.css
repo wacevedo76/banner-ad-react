@@ -1,6 +1,50 @@
 .ad-bottom-container {
+  height: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   margin: 0 auto;
-  padding: 1.5
+  padding: 1.5;
+}
+
+.ad-b-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: rgb(27, 23, 40);
+  border-collapse: collapse;
+}
+
+.bottom-opening-text {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  padding: 2vh;
+}
+
+.ad-b-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 23, 40);
+  height: 70%;
+}
+
+.ad-countdown-timer {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 6vh;
+
+  margin: .5em;
+}
+
+.countdown-border {
+  border: solid white 1px;
+  border-radius: 2px;
+  padding: .5em .3em;
 }
