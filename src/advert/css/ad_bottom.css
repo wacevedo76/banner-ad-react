@@ -1,8 +1,8 @@
 .ad-bottom-container {
-  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 40%;
 
   margin: 0 auto;
   padding: 1.5;
@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
   background-color: rgb(27, 23, 40);
   border-collapse: collapse;
 }
@@ -38,13 +37,12 @@
   color: white;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 6vh;
-
-  margin: .5em;
+  font-size: 3vw;
+  margin: .2em .3em 1em 0;
 }
 
 .countdown-border {
   border: solid white 1px;
-  border-radius: 2px;
+  border-radius: 10px;
   padding: .5em .3em;
 }
