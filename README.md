@@ -1,3 +1,9 @@
+Banner-ad-React:
+
+The purpose of this project is to replicate a simple banner advert using React, Javascript, CSS, and HTML.
+The advert is using modern principles of Modular web design and is Responsive. 
+-----------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
