@@ -3,7 +3,9 @@ import React from 'react';
 const AdBtop = () => {
   return (
     <div className="ad-b-top">
-    this is where the time goes
+      <div className="bottom-opening-text">
+        We are Open! 2019-10-22 11:00 AM
+      </div>
     </div>
   );
 };
